@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "@permafrost-dev/pretty-format": "^1.1.5",
+    "stacktrace-js": "^2.0.2",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@types/uuid": "^9.0.8",
+    "dts-bundle-generator": "^9.5.1",
+    "esbuild": "^0.21.5",
+    "fast-glob": "^3.3.2",
+    "typescript": "^5.4.5"
+  },
+  "name": "@alekswilc/ray",
+  "version": "1.1.1",
+  "main": "./build/aleksray.cjs",
+  "module": "./build/aleksray.mjs",
+  "typings": "./build/aleksray.d.ts",
+  "scripts": {
+    "build": "node ./scripts/build",
+    "prepublish": "npx tsc"
+  },
+  "keywords": [],
+  "author": "alekswilc",
+  "license": "ISC",
+  "description": "",
+  "publishConfig": {
+    "access": "public"
+  }
+}
