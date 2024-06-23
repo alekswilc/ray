@@ -26,7 +26,7 @@ const _ = async () => {
         platform: "node",
         outExtension: { '.js': '.cjs', },
         bundle: true,
-        external: ['@permafrost-dev/pretty-format', 'p-queue', 'stacktrace-js']
+        external: ['@permafrost-dev/pretty-format', 'uuid', 'stacktrace-js']
     });
 
     esbuild.build({
@@ -52,7 +52,7 @@ const _ = async () => {
         platform: "node",
         outExtension: { '.js': '.mjs', },
         bundle: true,
-        external: ['@permafrost-dev/pretty-format', 'p-queue', 'stacktrace-js']
+        external: ['@permafrost-dev/pretty-format', 'uuid', 'stacktrace-js']
     });
 
     esbuild.build({

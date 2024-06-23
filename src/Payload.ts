@@ -44,7 +44,6 @@ export class Payload {
 Payload.create({ type: 'test', content: {} });
 
 export interface IRequest {
-    // uuid, payloads, meta: { my_package_version: "1.0.0" }
     uuid: string;
     payloads: IPayload[]
     meta: Record<string, string>
