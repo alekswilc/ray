@@ -13,7 +13,7 @@ export interface IPayload {
     }
 }
 
-const LIB_STACK_SOURCES = () => [...(process.env.ALEKSRAY_LIB_STACK_SOURCES?.split(';') || []), '@alekswilc/ray', '@alekswilc\\ray', 'standalone-aleksray-bundle.js', 'standalone-aleksray-bundle.mjs', 'aleksray.js', 'aleksray.mjs']
+const LIB_STACK_SOURCES = () => [...(process.env.ALEKSRAY_LIB_STACK_SOURCES?.split(';') || []), '@alekswilc/ray', '@alekswilc\\ray', 'standalone-aleksray-bundle.cjs', 'standalone-aleksray-bundle.mjs', 'aleksray.cjs', 'aleksray.mjs']
 
 export class Payload {
     public static create(data: Omit<IPayload, 'origin'> & Partial<IPayload>) {

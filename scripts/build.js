@@ -26,6 +26,7 @@ const _ = async () => {
         platform: "node",
         outExtension: { '.js': '.cjs', },
         bundle: true,
+        target: [ 'node12', ],
         external: ['@permafrost-dev/pretty-format', 'uuid', 'stacktrace-js']
     });
 
@@ -36,6 +37,7 @@ const _ = async () => {
         sourcemap: "external",
         platform: "node",
         outExtension: { '.js': '.cjs', },
+        target: [ 'node12', ],
         bundle: true,
         // external: ['@permafrost-dev/pretty-format', 'p-queue', 'stacktrace-js']
     });
@@ -52,6 +54,7 @@ const _ = async () => {
         platform: "node",
         outExtension: { '.js': '.mjs', },
         bundle: true,
+        target: [ 'node12', ],
         external: ['@permafrost-dev/pretty-format', 'uuid', 'stacktrace-js']
     });
 
@@ -62,6 +65,7 @@ const _ = async () => {
         format: "esm",
         sourcemap: "external",
         platform: "node",
+        target: [ 'node12', ],
         outExtension: { '.js': '.mjs', },
         bundle: true,
         // external: ['@permafrost-dev/pretty-format', 'p-queue', 'stacktrace-js']
