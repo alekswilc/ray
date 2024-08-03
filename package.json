@@ -13,7 +13,7 @@
     "typescript": "^5.4.5"
   },
   "name": "@alekswilc/ray",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./build/aleksray.cjs",
   "module": "./build/aleksray.mjs",
   "typings": "./build/aleksray.d.ts",
