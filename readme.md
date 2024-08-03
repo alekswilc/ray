@@ -9,6 +9,14 @@ Lightweight & fast [ray](https://myray.app/) integration library written in type
 
 ![](assets/image.png)
 
+## Install
+
+```
+npm config set @alekswilc:registry=https://git.alekswilc.dev/api/packages/alekswilc/npm/
+npm i @alekswilc/ray
+```
+
+
 ### Performance
 - 3 requests took avg 28ms.
 - avg 2Mb memory usage on request
@@ -16,6 +24,7 @@ Lightweight & fast [ray](https://myray.app/) integration library written in type
 ### Env configuration
 - `ALEKSRAY_URI` (default: http://localhost:23517/)
 - `ALEKSRAY_DISABLED` (default: null)
+
 
 ### Methods
 ```ts
